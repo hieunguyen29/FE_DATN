@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import { RouterProvider } from 'react-router-dom'
+import { router } from './router'
 
 
 function App() {
@@ -8,9 +10,8 @@ function App() {
 
   return (   
      <div className="">
- <p className='text-red-500'>Hello</p>
-</div>
-  
+      <RouterProvider router={router}/>
+    </div>
   )
 }
 
