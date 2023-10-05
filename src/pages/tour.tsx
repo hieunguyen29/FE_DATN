@@ -6,6 +6,14 @@ import anh2 from '../img/anh2.jpg'
 import anh3 from '../img/anh3.jpg'
 import ticket from "../img/ticket.png"
 import shopping from "../img/shopping.png"
+import anh4 from "../img/anh4.jpg"
+import star from "../img/star.png"
+import line from "../img/line.png"
+import anh5 from "../img/anh5.png"
+import anh6 from "../img/anh6.png"
+import anh7 from "../img/anh7.png"
+import anh8 from "../img/anh8.jpg"
+
 
 const rounded = {
   borderRadius: '25px',
@@ -45,7 +53,7 @@ const TourPage = () => {
 
       {/* Conten left*/}
       <div className='flex container mx-auto gap-11 pt-5'>
-        <aside className='w-1/3 bg-slate-200'>
+        <aside className='w-1/3 bg-gray-100 h-[1300px]'>
           <h1 className='font-medium text-3xl p-4'>Lọc kết quả</h1>
           <h2 className='bg-blue-600 text-2xl font-medium text-white px-4 py-1'>Tour</h2>
           <div className='text-center p-2 py-4 '>
@@ -161,7 +169,7 @@ const TourPage = () => {
           <p className='text-center text-2xl font-semibold'>Kết quả tìm kiếm tour du lịch</p>
           <p>_________________________________________________________________________________________________________________________________</p>
           <div className='grid grid-cols-3 gap-7'>
-            <div className='py-4'>
+            <div className='py-4 bg-neutral-100 rounded-lg'>
               <img src={anh1} alt="anh1" className='h-[270px] w-max rounded-lg' />
               <p>22/09/2023 - 5N4Đ - Giờ đi: 05:20</p>
               <p className='font-bold py-2'>ĐÀ NẴNG - HUẾ - ĐẦM LẬP AN - LA VÀNG - ĐỘNG PHONG NHA & THIÊN ĐƯỜNG - KDL BÀ NÀ - CẦU VÀNG...</p>
@@ -189,7 +197,7 @@ const TourPage = () => {
                 </button>
               </div>
             </div>
-            <div className='py-4'>
+            <div className='py-4 bg-neutral-100 rounded-lg'>
               <img src={anh2} alt="anh2" className='h-[270px] w-max rounded-lg' />
               <p>22/09/2023 - 5N4Đ - Giờ đi: 05:20</p>
               <p className='font-bold py-2'>Huế - La Vang - Động Thiên Đường -
@@ -218,7 +226,7 @@ const TourPage = () => {
                 </button>
               </div>
             </div>
-            <div className='py-4'>
+            <div className='py-4 bg-neutral-100 rounded-lg'>
               <img src={anh3} alt="anh3" className='h-[270px] w-max rounded-lg' />
               <p>23/09/2023 - Trong ngày - Giờ đi: 16:00</p>
               <p className='font-bold py-2'>Trải nghiệm đặc sản: Tour xuyên rừng - KDL Đất Mũi Cà Mau - Áp dụng cho nhóm 6 khách trở lên </p>
@@ -251,8 +259,163 @@ const TourPage = () => {
             <button className='py-2 px-3 border border-blue-400 rounded-lg'>Xem tất cả</button>
           </div>
           <p className='py-1'>__________________________________________________________________________________________________________________________________</p>
+
+          <div className='py-3'>
+            <div className='w-[860px] bg-gray-100 rounded-lg flex'>
+              <img src={anh4} alt="anh4" className='w-1/3 rounded-lg' />
+              <div className='w-2/3 flex'>
+                <div className='w-2/3 px-2'>
+                  <div className='py-2'>
+                    <p className='w-40 bg-blue-400 rounded-lg hover:bg-red-500 py-2 text-center text-white text-sm'>Vé máy bay - khách sạn</p>
+                  </div>
+                  <p className='text-sm font-medium'>
+                    Đà Nẵng: Dịch vụ vé máy bay + 2 đêm nghỉ dưỡng tại Khách sạn
+                    Grand Tourane 5 sao ( Đã bao gồm ăn sáng )
+                  </p>
+                  <div className='flex gap-1 py-2'>
+                    <img src={star} alt="star" className='w-5' />
+                    <img src={star} alt="star" className='w-5' />
+                    <img src={star} alt="star" className='w-5' />
+                    <img src={star} alt="star" className='w-5' />
+                    <img src={star} alt="star" className='w-5' />
+                  </div>
+                  <p className='text-xs font-normal'>Bay Vietravel Airlines - Phòng Superior city view - Ăn sáng</p>
+                  <p className='text-xs font-normal py-2 pt-5'>252 Võ Nguyên Giáp, Phước Mỹ, Sơn Trà, Đà Nẵng</p>
+                </div>
+                <div className='flex gap-3'>
+                  <img src={line} alt="line" className='w-1 h-48' />
+                  <div className='pt-16'>
+                    <p>Giá chỉ từ</p>
+                    <div className='flex'>
+                      <p className='text-xl text-red-500 font-medium'>2,590,000₫</p>
+                      <p className='py-1'>/khách
+                        Ngày đi 27/09/2023
+                      </p>
+                    </div>
+                    <div className='flex gap-11'>
+                      <button className='py-2 px-4 border border-blue-400 text-xs rounded-lg'>
+                        Ngày khác
+                      </button>
+                      <button className='py-2 px-4 bg-red-500 text-xs rounded-lg text-white'>
+                        Đặt ngay
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='py-3'>
+            <div className='w-[860px] bg-gray-100 rounded-lg flex'>
+              <img src={anh4} alt="anh4" className='w-1/3 rounded-lg' />
+              <div className='w-2/3 flex'>
+                <div className='w-2/3 px-2'>
+                  <div className='py-2'>
+                    <p className='w-40 bg-blue-400 rounded-lg hover:bg-red-500 py-2 text-center text-white text-sm'>Vé máy bay - khách sạn</p>
+                  </div>
+                  <p className='text-sm font-medium'>
+                    Đà Nẵng: Dịch vụ vé máy bay + 2 đêm nghỉ dưỡng tại Khách sạn
+                    Grand Tourane 5 sao ( Đã bao gồm ăn sáng )
+                  </p>
+                  <div className='flex gap-1 py-2'>
+                    <img src={star} alt="star" className='w-5' />
+                    <img src={star} alt="star" className='w-5' />
+                    <img src={star} alt="star" className='w-5' />
+                    <img src={star} alt="star" className='w-5' />
+                    <img src={star} alt="star" className='w-5' />
+                  </div>
+                  <p className='text-xs font-normal'>Bay Vietravel Airlines - Phòng Superior city view - Ăn sáng</p>
+                  <p className='text-xs font-normal py-2 pt-5'>252 Võ Nguyên Giáp, Phước Mỹ, Sơn Trà, Đà Nẵng</p>
+                </div>
+                <div className='flex gap-3'>
+                  <img src={line} alt="line" className='w-1 h-48' />
+                  <div className='pt-16'>
+                    <p>Giá chỉ từ</p>
+                    <div className='flex'>
+                      <p className='text-xl text-red-500 font-medium'>2,590,000₫</p>
+                      <p className='py-1'>/khách
+                        Ngày đi 27/09/2023
+                      </p>
+                    </div>
+                    <div className='flex gap-11'>
+                      <button className='py-2 px-4 border border-blue-400 text-xs rounded-lg'>
+                        Ngày khác
+                      </button>
+                      <button className='py-2 px-4 bg-red-500 text-xs rounded-lg text-white'>
+                        Đặt ngay
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='py-3'>
+            <div className='w-[860px] bg-gray-100 rounded-lg flex'>
+              <img src={anh4} alt="anh4" className='w-1/3 rounded-lg' />
+              <div className='w-2/3 flex'>
+                <div className='w-2/3 px-2'>
+                  <div className='py-2'>
+                    <p className='w-40 bg-blue-400 rounded-lg hover:bg-red-500 py-2 text-center text-white text-sm'>Vé máy bay - khách sạn</p>
+                  </div>
+                  <p className='text-sm font-medium'>
+                    Đà Nẵng: Dịch vụ vé máy bay + 2 đêm nghỉ dưỡng tại Khách sạn
+                    Grand Tourane 5 sao ( Đã bao gồm ăn sáng )
+                  </p>
+                  <div className='flex gap-1 py-2'>
+                    <img src={star} alt="star" className='w-5' />
+                    <img src={star} alt="star" className='w-5' />
+                    <img src={star} alt="star" className='w-5' />
+                    <img src={star} alt="star" className='w-5' />
+                    <img src={star} alt="star" className='w-5' />
+                  </div>
+                  <p className='text-xs font-normal'>Bay Vietravel Airlines - Phòng Superior city view - Ăn sáng</p>
+                  <p className='text-xs font-normal py-2 pt-5'>252 Võ Nguyên Giáp, Phước Mỹ, Sơn Trà, Đà Nẵng</p>
+                </div>
+                <div className='flex gap-3'>
+                  <img src={line} alt="line" className='w-1 h-48' />
+                  <div className='pt-16'>
+                    <p>Giá chỉ từ</p>
+                    <div className='flex'>
+                      <p className='text-xl text-red-500 font-medium'>2,590,000₫</p>
+                      <p className='py-1'>/khách
+                        Ngày đi 27/09/2023
+                      </p>
+                    </div>
+                    <div className='flex gap-11'>
+                      <button className='py-2 px-4 border border-blue-400 text-xs rounded-lg'>
+                        Ngày khác
+                      </button>
+                      <button className='py-2 px-4 bg-red-500 text-xs rounded-lg text-white'>
+                        Đặt ngay
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='py-4'>
+            <p className='text-xl font-medium'>Các tour đang tìm phổ biến</p>
+            <div className='flex gap-5 py-4'>
+              <button className='w-36 px-4 py-2 hover:bg-slate-300 shadow-lg shadow-slate-600 rounded-md'>Đà Lạt</button>
+              <button className='w-36 px-4 py-2 hover:bg-slate-300 shadow-lg shadow-slate-600 rounded-md'>Hạ long</button>
+              <button className='w-36 px-4 py-2 hover:bg-slate-300 shadow-lg shadow-slate-600 rounded-md'>Phan thiết</button>
+              <button className='w-36 px-4 py-2 hover:bg-slate-300 shadow-lg shadow-slate-600 rounded-md'>Du lịch đà nẵng</button>
+            </div>
+          </div>
+          <p className='text-xl font-medium pb-4'>Các điểm đến ưa chuộng</p>
+          <div className='grid grid-cols-4 gap-8 py-5'>
+            <img src={anh5} alt="anh5" className='w-max rounded-lg'/>
+            <img src={anh6} alt="anh6" className='w-max rounded-lg'/>
+            <img src={anh7} alt="anh7" className='w-max rounded-lg'/>
+            <img src={anh8} alt="anh8" className='w-max rounded-lg'/>
+          </div>
         </article>
-      </div> 
+      </div>
+
+      {/* Footer */}
+      <footer></footer>
     </div>
   )
 }
