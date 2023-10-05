@@ -13,6 +13,8 @@ import anh5 from "../img/anh5.png"
 import anh6 from "../img/anh6.png"
 import anh7 from "../img/anh7.png"
 import anh8 from "../img/anh8.jpg"
+import anh14 from '../img/anh14.jpg'
+import anh15 from "../img/anh15.jpg"
 
 
 const rounded = {
@@ -40,10 +42,10 @@ const TourPage = () => {
               <a href="">Liên hệ</a>
             </ul>
           </nav>
-          <div className='p-4 pt-6 ml-72'>
+          <div className='p-4 pt-6 ml-auto'>
             <input className='border border-blue-400 rounded-md w-64' type="text" placeholder='Bắt đầu tìm kiếm...' name="" id="" />
           </div>
-          <button className=''>
+          <button className='pr-5'>
             <svg xmlns="http://www.w3.org/2000/svg" height="1.4em" viewBox="0 0 448 512"><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464H398.7c-8.9-63.3-63.3-112-129-112H178.3c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z" />
             </svg>
           </button>
@@ -167,7 +169,7 @@ const TourPage = () => {
         {/*conten-right*/}
         <article className='w-2/3'>
           <p className='text-center text-2xl font-semibold'>Kết quả tìm kiếm tour du lịch</p>
-          <p>_________________________________________________________________________________________________________________________________</p>
+          <div className='py-5'><hr className='bg-black h-[1.5px]'/></div>
           <div className='grid grid-cols-3 gap-7'>
             <div className='py-4 bg-neutral-100 rounded-lg'>
               <img src={anh1} alt="anh1" className='h-[270px] w-max rounded-lg' />
@@ -255,10 +257,10 @@ const TourPage = () => {
               </div>
             </div>
           </div>
-          <div className='lg:pl-[750px] md:pl-[300px] pt-5'>
-            <button className='py-2 px-3 border border-blue-400 rounded-lg'>Xem tất cả</button>
+          <div className='ml-auto py-4 pt-6'>
+            <button className='py-2 px-3 border border-blue-400 rounded-lg hover:bg-teal-500 shadow-lg shadow-slate-400'>Xem tất cả</button>
           </div>
-          <p className='py-1'>__________________________________________________________________________________________________________________________________</p>
+          <div className='py-5'><hr className='bg-black h-[2px]'/></div>
 
           <div className='py-3'>
             <div className='w-[860px] bg-gray-100 rounded-lg flex'>
@@ -283,7 +285,7 @@ const TourPage = () => {
                   <p className='text-xs font-normal py-2 pt-5'>252 Võ Nguyên Giáp, Phước Mỹ, Sơn Trà, Đà Nẵng</p>
                 </div>
                 <div className='flex gap-3'>
-                  <img src={line} alt="line" className='w-1 h-48' />
+                  <img src={line} alt="line" className='w-1 h-auto' />
                   <div className='pt-16'>
                     <p>Giá chỉ từ</p>
                     <div className='flex'>
@@ -307,7 +309,7 @@ const TourPage = () => {
           </div>
           <div className='py-3'>
             <div className='w-[860px] bg-gray-100 rounded-lg flex'>
-              <img src={anh4} alt="anh4" className='w-1/3 rounded-lg' />
+              <img src={anh14} alt="anh14" className='w-1/3 rounded-lg' />
               <div className='w-2/3 flex'>
                 <div className='w-2/3 px-2'>
                   <div className='py-2'>
@@ -328,7 +330,7 @@ const TourPage = () => {
                   <p className='text-xs font-normal py-2 pt-5'>252 Võ Nguyên Giáp, Phước Mỹ, Sơn Trà, Đà Nẵng</p>
                 </div>
                 <div className='flex gap-3'>
-                  <img src={line} alt="line" className='w-1 h-48' />
+                  <img src={line} alt="line" className='w-1 h-auto' />
                   <div className='pt-16'>
                     <p>Giá chỉ từ</p>
                     <div className='flex'>
@@ -352,7 +354,7 @@ const TourPage = () => {
           </div>
           <div className='py-3'>
             <div className='w-[860px] bg-gray-100 rounded-lg flex'>
-              <img src={anh4} alt="anh4" className='w-1/3 rounded-lg' />
+              <img src={anh15} alt="anh15" className='w-1/3 rounded-lg' />
               <div className='w-2/3 flex'>
                 <div className='w-2/3 px-2'>
                   <div className='py-2'>
@@ -373,7 +375,7 @@ const TourPage = () => {
                   <p className='text-xs font-normal py-2 pt-5'>252 Võ Nguyên Giáp, Phước Mỹ, Sơn Trà, Đà Nẵng</p>
                 </div>
                 <div className='flex gap-3'>
-                  <img src={line} alt="line" className='w-1 h-48' />
+                  <img src={line} alt="line" className='w-1 h-auto' />
                   <div className='pt-16'>
                     <p>Giá chỉ từ</p>
                     <div className='flex'>
